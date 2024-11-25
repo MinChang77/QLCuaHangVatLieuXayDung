@@ -1,0 +1,12 @@
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\bin\Debug\BLL.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\bin\Debug\BLL.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\obj\Debug\BLL.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\obj\Debug\BLL.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\bin\Debug\DAL.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\bin\Debug\DAL.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\bin\Debug\DTO.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\bin\Debug\DTO.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\BLL\bin\Debug\DTO.dll.config

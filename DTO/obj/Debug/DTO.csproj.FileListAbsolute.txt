@@ -1,0 +1,7 @@
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DTO\bin\Debug\DTO.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DTO\bin\Debug\DTO.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DTO\obj\Debug\DTO.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DTO\obj\Debug\DTO.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DTO\bin\Debug\DTO.dll.config

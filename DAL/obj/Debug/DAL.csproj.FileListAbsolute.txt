@@ -1,0 +1,10 @@
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\bin\Debug\DAL.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\bin\Debug\DAL.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\obj\Debug\DAL.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\obj\Debug\DAL.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\bin\Debug\DTO.dll
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\bin\Debug\DTO.pdb
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\User\Protect Visual\QL_CuaHangVatLieuXayDung\DAL\bin\Debug\DTO.dll.config

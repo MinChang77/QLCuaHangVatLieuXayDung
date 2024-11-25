@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.25" name="QL_VLXD">
+  <DataContextMoniker Name="/QL_VLXDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8ab919d0-ae98-44d4-a8d4-4cb78dcbe9aa" absoluteBounds="6.5, 7.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QL_VLXDDataContext/ChiTietDonHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="feb87fc2-3b6a-4e48-946d-d9840ca88dbe" absoluteBounds="6.515, 7.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e697ac4d-5f0c-4094-943e-953347c8886d" absoluteBounds="3.25, 5.375, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/QL_VLXDDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49b6526b-4759-4ac9-baaa-0195cd17410f" absoluteBounds="3.265, 5.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c1efa14-be22-4e8c-9f12-c44211c24b37" absoluteBounds="3.375, 3.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QL_VLXDDataContext/ChiTietPhieuNhap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4550074c-6009-43aa-88e2-4d512512f50f" absoluteBounds="3.3899999999999997, 3.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="786b594d-d269-4da5-82e3-d74261c590b6" absoluteBounds="3.625, 7.875, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/QL_VLXDDataContext/DonHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85e43177-60cc-461d-beb8-2040b834cbfc" absoluteBounds="3.64, 8.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="92d7495e-8aa6-4b18-9b4d-5aa4589cc3ab" absoluteBounds="6.5, 10, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/QL_VLXDDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25070105-b03f-4575-90e3-8ed718bd2da6" absoluteBounds="6.515, 10.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7ec83c7-16ef-4066-90da-7ce937dde436" absoluteBounds="7.875, 1.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QL_VLXDDataContext/NhaCungCap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="535e70ae-1b28-4ea2-9201-bfda5fbd9a94" absoluteBounds="7.89, 2.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="671183a7-676a-4a69-b395-632e19dd7773" absoluteBounds="0.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QL_VLXDDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e7e51fa-e2a7-4d3e-b2f8-1231d9a2e1f0" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="73afbc01-937b-4923-abd4-5601780bb121" absoluteBounds="4.5, 1.125, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/QL_VLXDDataContext/PhieuNhap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="946f23b9-76ce-4636-a959-dc3d8d28f217" absoluteBounds="4.5150000000000006, 1.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.25 : 6.35659912109375); (7.5 : 6.35659912109375); (7.5 : 7.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/SanPham/SanPham_ChiTietDonHang" />
+      <nodes>
+        <classShapeMoniker Id="e697ac4d-5f0c-4094-943e-953347c8886d" />
+        <classShapeMoniker Id="8ab919d0-ae98-44d4-a8d4-4cb78dcbe9aa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.3125 : 5.375); (4.3125 : 4.82859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/SanPham/SanPham_ChiTietPhieuNhap" />
+      <nodes>
+        <classShapeMoniker Id="e697ac4d-5f0c-4094-943e-953347c8886d" />
+        <classShapeMoniker Id="1c1efa14-be22-4e8c-9f12-c44211c24b37" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.625 : 8.47679768880208); (6.5 : 8.47679768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/DonHang/DonHang_ChiTietDonHang" />
+      <nodes>
+        <classShapeMoniker Id="786b594d-d269-4da5-82e3-d74261c590b6" />
+        <classShapeMoniker Id="8ab919d0-ae98-44d4-a8d4-4cb78dcbe9aa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5 : 10.9815991210937); (4.625 : 10.9815991210937); (4.625 : 9.64589680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/KhachHang/KhachHang_DonHang" />
+      <nodes>
+        <classShapeMoniker Id="92d7495e-8aa6-4b18-9b4d-5aa4589cc3ab" />
+        <classShapeMoniker Id="786b594d-d269-4da5-82e3-d74261c590b6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.875 : 3.78049967447917); (8.875 : 5.83454706054687); (5.25 : 5.83454706054687)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/NhaCungCap/NhaCungCap_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="e7ec83c7-16ef-4066-90da-7ce937dde436" />
+        <classShapeMoniker Id="e697ac4d-5f0c-4094-943e-953347c8886d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 2.90549967447917); (1.75 : 8.6249995); (3.625 : 8.6249995)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/NhanVien/NhanVien_DonHang" />
+      <nodes>
+        <classShapeMoniker Id="671183a7-676a-4a69-b395-632e19dd7773" />
+        <classShapeMoniker Id="786b594d-d269-4da5-82e3-d74261c590b6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.9375 : 2.89589680989583); (4.9375 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/PhieuNhap/PhieuNhap_ChiTietPhieuNhap" />
+      <nodes>
+        <classShapeMoniker Id="73afbc01-937b-4923-abd4-5601780bb121" />
+        <classShapeMoniker Id="1c1efa14-be22-4e8c-9f12-c44211c24b37" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.875 : 2.26044840494792); (6.5 : 2.26044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/NhaCungCap/NhaCungCap_PhieuNhap" />
+      <nodes>
+        <classShapeMoniker Id="e7ec83c7-16ef-4066-90da-7ce937dde436" />
+        <classShapeMoniker Id="73afbc01-937b-4923-abd4-5601780bb121" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.01044840494792); (4.5 : 2.01044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/NhanVien/NhanVien_PhieuNhap" />
+      <nodes>
+        <classShapeMoniker Id="671183a7-676a-4a69-b395-632e19dd7773" />
+        <classShapeMoniker Id="73afbc01-937b-4923-abd4-5601780bb121" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

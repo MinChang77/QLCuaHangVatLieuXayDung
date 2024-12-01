@@ -77,7 +77,6 @@ namespace GiaoDien
             pnlGiaoDienChucNang.Tag = trangcon;
             trangcon.BringToFront();
             trangcon.Show();
-            //labelcon.Text = trangcon.Text;
         }
 
         private void btnSanPham_Click(object sender, EventArgs e)
@@ -117,6 +116,16 @@ namespace GiaoDien
         private void btnPhieuNhap_Click(object sender, EventArgs e)
         {
             motrangcon(new frmPhieuNhap());
+        }
+
+        private void frmTrangChu_Resize(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            motrangcon(new frmThongKe());
         }
     }
 }

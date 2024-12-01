@@ -24,6 +24,13 @@ namespace BLL
         {
             return dalphieunhap.LoadPhieuNhap();
         }
-
+        public bool Them(PhieuNhap phieuNhap)
+        {
+            return dalphieunhap.ThemPhieuNhap(phieuNhap);
+        }
+        public string GetLastMaPhieuNhap()
+        {
+            return dalphieunhap.GetLastMaPhieuNhap();
+        }
     }
 }

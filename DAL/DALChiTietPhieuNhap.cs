@@ -17,11 +17,11 @@ namespace DAL
         {
             return vlxd.ChiTietPhieuNhaps.Where(ct => ct.MaPhieuNhap == maPhieuNhap).ToList();
         }
-        public bool LuuChiTietPhieuNhap(List<ChiTietPhieuNhap> chiTietPhieuNhaps)
+        public bool ThemChiTietPhieuNhap(ChiTietPhieuNhap pChiTietPhieuNhap)
         {
             try
             {
-                vlxd.ChiTietPhieuNhaps.InsertAllOnSubmit(chiTietPhieuNhaps);
+                vlxd.ChiTietPhieuNhaps.InsertOnSubmit(pChiTietPhieuNhap);
                 vlxd.SubmitChanges();
                 return true;
             }
@@ -29,6 +29,31 @@ namespace DAL
             {
                 return false;
             }
+
+        }
+        public bool CapNhatChiTietPhieuNhap(string pMaPhieuNhap, string pMaSanPham, int pSoLuong, int pDonGia )
+        {
+            ChiTietPhieuNhap CapNhat = vlxd.ChiTietPhieuNhaps.Where(ctph => ctph.MaPhieuNhap == pMaPhieuNhap).FirstOrDefault();
+            if (CapNhat != null)
+            {
+                CapNhat.MaSanPham = pMaSanPham;
+                CapNhat.SoLuong = pSoLuong;
+                CapNhat.DonGia = pDonGia;
+                vlxd.SubmitChanges();
+                return true;
+            }
+            return false;
+        }
+        public bool XoaChiTietPhieuNhap(string pMaPhieuNhap)
+        {
+            ChiTietPhieuNhap Xoa = vlxd.ChiTietPhieuNhaps.Where(ctph => ctph.MaPhieuNhap == pMaPhieuNhap).FirstOrDefault();
+            if (Xoa != null)
+            {
+                vlxd.ChiTietPhieuNhaps.DeleteOnSubmit(Xoa);
+                vlxd.SubmitChanges();
+                return true;
+            }
+            return false;
         }
     }
 }

@@ -24,6 +24,12 @@ namespace GiaoDien.MenuTab
             btnCapNhat.Click += BtnCapNhat_Click;
             btnXoa.Click += BtnXoa_Click;
             btnTimKiem.Click += BtnTimKiem_Click;
+            btnLamMoi.Click += BtnLamMoi_Click;
+        }
+
+        private void BtnLamMoi_Click(object sender, EventArgs e)
+        {
+            ClearFields();
         }
 
         private void BtnTimKiem_Click(object sender, EventArgs e)
@@ -187,5 +193,7 @@ namespace GiaoDien.MenuTab
                 cboDonViTinh.SelectedItem = dgvNhaCungCap.CurrentRow.Cells["DonViTinhSanPhamCungCap"].Value.ToString();
             }
         }
+
+        
     }
 }

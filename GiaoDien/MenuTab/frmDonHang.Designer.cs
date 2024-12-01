@@ -49,14 +49,14 @@
             // 
             // txtTongTien
             // 
-            this.txtTongTien.Location = new System.Drawing.Point(710, 100);
+            this.txtTongTien.Location = new System.Drawing.Point(805, 98);
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.Size = new System.Drawing.Size(167, 22);
             this.txtTongTien.TabIndex = 67;
             // 
             // txtMaDonHang
             // 
-            this.txtMaDonHang.Location = new System.Drawing.Point(710, 70);
+            this.txtMaDonHang.Location = new System.Drawing.Point(805, 68);
             this.txtMaDonHang.Name = "txtMaDonHang";
             this.txtMaDonHang.Size = new System.Drawing.Size(167, 22);
             this.txtMaDonHang.TabIndex = 66;
@@ -69,7 +69,7 @@
             this.dgvChiTietDonHang.RowHeadersWidth = 51;
             this.dgvChiTietDonHang.RowTemplate.Height = 24;
             this.dgvChiTietDonHang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvChiTietDonHang.Size = new System.Drawing.Size(956, 225);
+            this.dgvChiTietDonHang.Size = new System.Drawing.Size(1079, 281);
             this.dgvChiTietDonHang.TabIndex = 53;
             // 
             // grbChiTiet
@@ -77,7 +77,7 @@
             this.grbChiTiet.Controls.Add(this.dgvChiTietDonHang);
             this.grbChiTiet.Location = new System.Drawing.Point(25, 399);
             this.grbChiTiet.Name = "grbChiTiet";
-            this.grbChiTiet.Size = new System.Drawing.Size(971, 252);
+            this.grbChiTiet.Size = new System.Drawing.Size(1091, 308);
             this.grbChiTiet.TabIndex = 65;
             this.grbChiTiet.TabStop = false;
             this.grbChiTiet.Text = "Chi tiết đơn hàng";
@@ -90,14 +90,14 @@
             this.dgvDonHang.RowHeadersWidth = 51;
             this.dgvDonHang.RowTemplate.Height = 24;
             this.dgvDonHang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDonHang.Size = new System.Drawing.Size(962, 183);
+            this.dgvDonHang.Size = new System.Drawing.Size(1085, 183);
             this.dgvDonHang.TabIndex = 64;
             this.dgvDonHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDonHang_CellClick);
             // 
             // cboKhachHang
             // 
             this.cboKhachHang.FormattingEnabled = true;
-            this.cboKhachHang.Location = new System.Drawing.Point(237, 96);
+            this.cboKhachHang.Location = new System.Drawing.Point(332, 94);
             this.cboKhachHang.Name = "cboKhachHang";
             this.cboKhachHang.Size = new System.Drawing.Size(281, 24);
             this.cboKhachHang.TabIndex = 63;
@@ -105,14 +105,14 @@
             // cboNhanVien
             // 
             this.cboNhanVien.FormattingEnabled = true;
-            this.cboNhanVien.Location = new System.Drawing.Point(237, 66);
+            this.cboNhanVien.Location = new System.Drawing.Point(332, 64);
             this.cboNhanVien.Name = "cboNhanVien";
             this.cboNhanVien.Size = new System.Drawing.Size(281, 24);
             this.cboNhanVien.TabIndex = 62;
             // 
             // btnTimKiem
             // 
-            this.btnTimKiem.Location = new System.Drawing.Point(306, 136);
+            this.btnTimKiem.Location = new System.Drawing.Point(401, 134);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(212, 48);
             this.btnTimKiem.TabIndex = 58;
@@ -123,7 +123,7 @@
             // 
             this.lblTongTien.AutoSize = true;
             this.lblTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTongTien.Location = new System.Drawing.Point(537, 100);
+            this.lblTongTien.Location = new System.Drawing.Point(632, 98);
             this.lblTongTien.Name = "lblTongTien";
             this.lblTongTien.Size = new System.Drawing.Size(98, 20);
             this.lblTongTien.TabIndex = 56;
@@ -133,7 +133,7 @@
             // 
             this.lblMaDonHang.AutoSize = true;
             this.lblMaDonHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaDonHang.Location = new System.Drawing.Point(537, 70);
+            this.lblMaDonHang.Location = new System.Drawing.Point(632, 68);
             this.lblMaDonHang.Name = "lblMaDonHang";
             this.lblMaDonHang.Size = new System.Drawing.Size(129, 20);
             this.lblMaDonHang.TabIndex = 53;
@@ -143,7 +143,7 @@
             // 
             this.lblMaKhachHang.AutoSize = true;
             this.lblMaKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaKhachHang.Location = new System.Drawing.Point(21, 100);
+            this.lblMaKhachHang.Location = new System.Drawing.Point(116, 98);
             this.lblMaKhachHang.Name = "lblMaKhachHang";
             this.lblMaKhachHang.Size = new System.Drawing.Size(148, 20);
             this.lblMaKhachHang.TabIndex = 55;
@@ -153,7 +153,7 @@
             // 
             this.lblMaNhanVien.AutoSize = true;
             this.lblMaNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaNhanVien.Location = new System.Drawing.Point(21, 70);
+            this.lblMaNhanVien.Location = new System.Drawing.Point(116, 68);
             this.lblMaNhanVien.Name = "lblMaNhanVien";
             this.lblMaNhanVien.Size = new System.Drawing.Size(138, 20);
             this.lblMaNhanVien.TabIndex = 54;
@@ -163,7 +163,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(418, 8);
+            this.label1.Location = new System.Drawing.Point(473, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(257, 29);
             this.label1.TabIndex = 52;
@@ -171,7 +171,7 @@
             // 
             // txtNgayLap
             // 
-            this.txtNgayLap.Location = new System.Drawing.Point(710, 136);
+            this.txtNgayLap.Location = new System.Drawing.Point(805, 134);
             this.txtNgayLap.Name = "txtNgayLap";
             this.txtNgayLap.Size = new System.Drawing.Size(167, 22);
             this.txtNgayLap.TabIndex = 73;
@@ -180,7 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 719);
+            this.ClientSize = new System.Drawing.Size(1128, 719);
             this.Controls.Add(this.txtNgayLap);
             this.Controls.Add(this.txtTongTien);
             this.Controls.Add(this.txtMaDonHang);

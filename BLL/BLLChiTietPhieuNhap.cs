@@ -15,9 +15,23 @@ namespace BLL
         {
 
         }
-        public List<ChiTietPhieuNhap> GetChiTietPhieuNhaps()
+        public List<ChiTietPhieuNhap> GetChiTietPhieuNhaps(string maPhieuNhap)
         {
-            return dalchitietphieunhap.LoadChiTietPhieuNhap();
+            return dalchitietphieunhap.LoadChiTietPhieuNhap(maPhieuNhap);
+        }
+
+        public bool Them(ChiTietPhieuNhap pChiTietPhieuNhap)
+        {
+            return dalchitietphieunhap.ThemChiTietPhieuNhap(pChiTietPhieuNhap);
+        }
+        public bool CapNhat(string pMaPhieuNhap, string pMaSanPham, int pSoLuong, int pDonGia )
+        {
+            return dalchitietphieunhap.CapNhatChiTietPhieuNhap(pMaPhieuNhap, pMaSanPham, pSoLuong, pDonGia);
+        }
+
+        public bool Xoa(string pMaPhieuNhap)
+        {
+            return dalchitietphieunhap.XoaChiTietPhieuNhap(pMaPhieuNhap);
         }
     }
 }

@@ -29,6 +29,11 @@ namespace DAL
                 .ToList();
         }
 
-       
+        public List<DonHang> LayDonHangTheoKhoangThoiGian(DateTime tuNgay, DateTime denNgay)
+        {
+            return vlxd.DonHangs
+                       .Where(dh => dh.NgayLap >= tuNgay && dh.NgayLap <= denNgay)
+                       .ToList();
+        }
     }
 }

@@ -25,5 +25,14 @@ namespace BLL
             return daldonhang.TimKiemDonHangTheoKhachHangHoacNhanVien(maKhachHang, maNhanVien);
         }
 
+        public List<DonHang> LayDonHangTheoKhoangThoiGian(DateTime tuNgay, DateTime denNgay)
+        {
+            return daldonhang.LayDonHangTheoKhoangThoiGian(tuNgay, denNgay);
+        }
+
+        public int TinhTongTien(List<DonHang> donHangs)
+        {
+            return donHangs.Sum(dh => dh.TongTien ?? 0);
+        }
     }
 }

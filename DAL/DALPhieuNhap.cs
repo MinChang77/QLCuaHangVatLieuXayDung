@@ -29,5 +29,13 @@ namespace DAL
                 return false;
             }
         }
+        public string GetLastMaPhieuNhap()
+        {
+            using (var context = new QL_VLXDDataContext())
+            {
+                var lastPhieuNhap = context.PhieuNhaps.OrderByDescending(pn => pn.MaPhieuNhap).FirstOrDefault();
+                return lastPhieuNhap?.MaPhieuNhap;
+            }
+        }
     }
 }

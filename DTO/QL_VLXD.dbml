@@ -17,6 +17,7 @@
       <Column Name="DonGia" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="SoLuongTon" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="MoTa" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="HinhAnh" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
       <Column Name="MaNhaCungCap" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
       <Association Name="SanPham_ChiTietDonHang" Member="ChiTietDonHangs" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="ChiTietDonHang" />
       <Association Name="SanPham_ChiTietPhieuNhap" Member="ChiTietPhieuNhaps" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="ChiTietPhieuNhap" />

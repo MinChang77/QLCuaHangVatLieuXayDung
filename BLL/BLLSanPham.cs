@@ -30,9 +30,9 @@ namespace BLL
         {
             return dalsanpham.ThemSanPham(pSanPham);
         }
-        public bool CapNhat(string pMaSanPham, string pTenSanPham, int pDonGia, int pSoLuongTon, string pMoTa, string pMaNhaCungCap)
+        public bool CapNhat(string pMaSanPham, string pTenSanPham, int pDonGia, int pSoLuongTon, string pMoTa, string pHinhAnh, string pMaNhaCungCap)
         {
-            return dalsanpham.CapNhatSanPham(pMaSanPham, pTenSanPham, pDonGia, pSoLuongTon, pMoTa, pMaNhaCungCap);
+            return dalsanpham.CapNhatSanPham(pMaSanPham, pTenSanPham, pDonGia, pSoLuongTon, pMoTa, pHinhAnh, pMaNhaCungCap);
         }
 
         public bool Xoa(string pMaSanPham)
@@ -45,7 +45,7 @@ namespace BLL
             return dalsanpham.TimKiemSanPham(pTenSanPham);
         }
 
-        public List<SanPham> GetSanPhamsByNhaCungCap(string maNhaCungCap)
+        public List<SanPham> LoadSanPhamTheoNhaCungCap(string maNhaCungCap)
         {
             return dalsanpham.LoadSanPhamTheoNhaCungCap(maNhaCungCap);
         }

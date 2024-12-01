@@ -24,6 +24,12 @@ namespace GiaoDien.MenuTab
             btnCapNhat.Click += BtnCapNhat_Click;
             btnXoa.Click += BtnXoa_Click;
             btnTimKiem.Click += BtnTimKiem_Click;
+            btnLamMoi.Click += BtnLamMoi_Click;
+        }
+
+        private void BtnLamMoi_Click(object sender, EventArgs e)
+        {
+            ClearFields();
         }
 
         private void BtnTimKiem_Click(object sender, EventArgs e)
@@ -171,7 +177,7 @@ namespace GiaoDien.MenuTab
                 txtEmail.Text = row.Cells["Email"].Value.ToString();
                 txtChucVu.Text = row.Cells["ChucVu"].Value.ToString();
                 txtSoDienThoai.Text = row.Cells["SoDienThoai"].Value.ToString();
-                txtMatKhau.Text = row.Cells["MatKhau"].Value.ToString();
+                txtMatKhau.Text = "********";
             }
         }
 

@@ -24,6 +24,12 @@ namespace GiaoDien.MenuTab
             btnXoa.Click += BtnXoa_Click;
             btnCapNhat.Click += BtnCapNhat_Click;
             btnTimKiem.Click += BtnTimKiem_Click;
+            btnLamMoi.Click += BtnLamMoi_Click;
+        }
+
+        private void BtnLamMoi_Click(object sender, EventArgs e)
+        {
+            ClearFields();
         }
 
         private void BtnTimKiem_Click(object sender, EventArgs e)
@@ -52,10 +58,11 @@ namespace GiaoDien.MenuTab
                 int donGia = int.TryParse(txtDonGia.Text, out int tempDonGia) ? tempDonGia : 0; 
                 int soLuongTon = int.TryParse(txtSoLuongTon.Text, out int tempSoLuongTon) ? tempSoLuongTon : 0; 
                 string moTa = txtMoTa.Text;
+                string hinhAnh = txtHinhAnh.Text;
                 string maNhaCungCap = cboMaNhaCungCap.SelectedValue.ToString();
 
                 // Gọi hàm sửa từ BLL
-                if (bllSanPham.CapNhat(maSanPham, tenSanPham, donGia, soLuongTon, moTa, maNhaCungCap)) 
+                if (bllSanPham.CapNhat(maSanPham, tenSanPham, donGia, soLuongTon, moTa, hinhAnh, maNhaCungCap)) 
                 {
                     MessageBox.Show("Cập nhật thành công");
                     LoadSanPham();
@@ -90,7 +97,7 @@ namespace GiaoDien.MenuTab
 
         private void BtnThem_Click(object sender, EventArgs e)
         {
-            if (txtMaSanPham.Text == string.Empty || txtTenSanPham.Text == string.Empty || txtDonGia.Text == string.Empty || txtSoLuongTon.Text == string.Empty)
+            if (txtMaSanPham.Text == string.Empty || txtTenSanPham.Text == string.Empty || txtDonGia.Text == string.Empty || txtSoLuongTon.Text == string.Empty || txtHinhAnh.Text == string.Empty)
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin.");
                 return;
@@ -104,6 +111,7 @@ namespace GiaoDien.MenuTab
                 DonGia = int.TryParse(txtDonGia.Text, out int donGia) ? donGia : 0,
                 SoLuongTon = int.TryParse(txtSoLuongTon.Text, out int soLuongTon) ? soLuongTon : 0,
                 MoTa = txtMoTa.Text,
+                HinhAnh = txtHinhAnh.Text,
                 MaNhaCungCap = cboMaNhaCungCap.SelectedValue.ToString()
             };
 
@@ -152,7 +160,8 @@ namespace GiaoDien.MenuTab
             txtDonGia.Clear();
             txtSoLuongTon.Clear();
             txtMoTa.Clear();
-            cboMaNhaCungCap.SelectedIndex = -1; // Đặt lại ComboBox về trạng thái không chọn
+            txtHinhAnh.Clear();
+            cboMaNhaCungCap.SelectedIndex = -1; 
         }
 
         private void dgvSanPham_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -164,8 +173,29 @@ namespace GiaoDien.MenuTab
                 txtDonGia.Text = dgvSanPham.CurrentRow.Cells["DonGia"].Value.ToString();
                 txtSoLuongTon.Text = dgvSanPham.CurrentRow.Cells["SoLuongTon"].Value.ToString();
                 txtMoTa.Text = dgvSanPham.CurrentRow.Cells["MoTa"].Value.ToString();
+                txtHinhAnh.Text = dgvSanPham.CurrentRow.Cells["HinhAnh"].Value.ToString();
                 cboMaNhaCungCap.SelectedValue = dgvSanPham.CurrentRow.Cells["MaNhaCungCap"].Value.ToString();
             }
+        }
+
+        private void dgvSanPham_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCapNhat_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXoa_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

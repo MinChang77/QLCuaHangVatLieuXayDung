@@ -63,7 +63,7 @@
             this.pnlMenu.Controls.Add(this.btnSanPham);
             this.pnlMenu.Location = new System.Drawing.Point(3, 2);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(224, 620);
+            this.pnlMenu.Size = new System.Drawing.Size(224, 714);
             this.pnlMenu.TabIndex = 0;
             // 
             // btnDonHang
@@ -145,7 +145,7 @@
             this.btnDangXuat.IconColor = System.Drawing.Color.White;
             this.btnDangXuat.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDangXuat.Location = new System.Drawing.Point(0, 556);
+            this.btnDangXuat.Location = new System.Drawing.Point(0, 650);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Size = new System.Drawing.Size(221, 61);
             this.btnDangXuat.TabIndex = 9;
@@ -216,6 +216,7 @@
             this.btnThongKe.Text = "Thống Kê";
             this.btnThongKe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // btnKhachHang
             // 
@@ -279,7 +280,7 @@
             this.pnlGiaoDienChucNang.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlGiaoDienChucNang.Location = new System.Drawing.Point(233, 2);
             this.pnlGiaoDienChucNang.Name = "pnlGiaoDienChucNang";
-            this.pnlGiaoDienChucNang.Size = new System.Drawing.Size(890, 620);
+            this.pnlGiaoDienChucNang.Size = new System.Drawing.Size(1073, 760);
             this.pnlGiaoDienChucNang.TabIndex = 1;
             // 
             // frmTrangChu
@@ -287,11 +288,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(1125, 623);
+            this.ClientSize = new System.Drawing.Size(1308, 763);
             this.Controls.Add(this.pnlGiaoDienChucNang);
             this.Controls.Add(this.pnlMenu);
             this.Name = "frmTrangChu";
             this.Text = "TRANG CHỦ";
+            this.Resize += new System.EventHandler(this.frmTrangChu_Resize);
             this.pnlMenu.ResumeLayout(false);
             this.pnlMenu.PerformLayout();
             this.ResumeLayout(false);

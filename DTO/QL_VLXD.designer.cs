@@ -383,6 +383,8 @@ namespace DTO
 		
 		private string _MoTa;
 		
+		private string _HinhAnh;
+		
 		private string _MaNhaCungCap;
 		
 		private EntitySet<ChiTietDonHang> _ChiTietDonHangs;
@@ -405,6 +407,8 @@ namespace DTO
     partial void OnSoLuongTonChanged();
     partial void OnMoTaChanging(string value);
     partial void OnMoTaChanged();
+    partial void OnHinhAnhChanging(string value);
+    partial void OnHinhAnhChanged();
     partial void OnMaNhaCungCapChanging(string value);
     partial void OnMaNhaCungCapChanged();
     #endregion
@@ -513,6 +517,26 @@ namespace DTO
 					this._MoTa = value;
 					this.SendPropertyChanged("MoTa");
 					this.OnMoTaChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_HinhAnh", DbType="VarChar(MAX)")]
+		public string HinhAnh
+		{
+			get
+			{
+				return this._HinhAnh;
+			}
+			set
+			{
+				if ((this._HinhAnh != value))
+				{
+					this.OnHinhAnhChanging(value);
+					this.SendPropertyChanging();
+					this._HinhAnh = value;
+					this.SendPropertyChanged("HinhAnh");
+					this.OnHinhAnhChanged();
 				}
 			}
 		}

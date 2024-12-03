@@ -22,6 +22,12 @@ namespace DAL
             try
             {
                 vlxd.ChiTietPhieuNhaps.InsertOnSubmit(pChiTietPhieuNhap);
+
+                var sanPham = vlxd.SanPhams.FirstOrDefault(sp => sp.MaSanPham == pChiTietPhieuNhap.MaSanPham);
+                if (sanPham != null)
+                {
+                    sanPham.SoLuongTon += pChiTietPhieuNhap.SoLuong; 
+                }
                 vlxd.SubmitChanges();
                 return true;
             }
@@ -29,8 +35,8 @@ namespace DAL
             {
                 return false;
             }
-
         }
+
         public bool CapNhatChiTietPhieuNhap(string pMaPhieuNhap, string pMaSanPham, int pSoLuong, int pDonGia )
         {
             ChiTietPhieuNhap CapNhat = vlxd.ChiTietPhieuNhaps.Where(ctph => ctph.MaPhieuNhap == pMaPhieuNhap).FirstOrDefault();

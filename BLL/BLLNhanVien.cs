@@ -25,6 +25,11 @@ namespace BLL
             return dalnhanvien.KiemTraDangNhap(soDienThoai, matKhau, out chucVu);
         }
 
+        public string GetMaNhanVienBySoDienThoai(string soDienThoai)
+        {
+            return dalnhanvien.GetMaNhanVienBySoDienThoai(soDienThoai);
+        }
+
         public bool KTKC(string maNhanVien)
         {
             List<NhanVien> nhanViens = GetNhanViens();

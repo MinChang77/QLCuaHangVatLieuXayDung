@@ -33,5 +33,16 @@ namespace DTO.Properties {
                 return ((string)(this["QL_VLXDConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=HPMINHKHANG;Initial Catalog=QL_VLXD;Persist Security Info=True;User I" +
+            "D=sa;Password=123;TrustServerCertificate=True")]
+        public string QL_VLXDConnectionString1 {
+            get {
+                return ((string)(this["QL_VLXDConnectionString1"]));
+            }
+        }
     }
 }

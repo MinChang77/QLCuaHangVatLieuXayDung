@@ -280,7 +280,7 @@
             this.pnlGiaoDienChucNang.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlGiaoDienChucNang.Location = new System.Drawing.Point(233, 2);
             this.pnlGiaoDienChucNang.Name = "pnlGiaoDienChucNang";
-            this.pnlGiaoDienChucNang.Size = new System.Drawing.Size(1073, 760);
+            this.pnlGiaoDienChucNang.Size = new System.Drawing.Size(1174, 806);
             this.pnlGiaoDienChucNang.TabIndex = 1;
             // 
             // frmTrangChu
@@ -288,7 +288,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(1308, 763);
+            this.ClientSize = new System.Drawing.Size(1409, 809);
             this.Controls.Add(this.pnlGiaoDienChucNang);
             this.Controls.Add(this.pnlMenu);
             this.Name = "frmTrangChu";

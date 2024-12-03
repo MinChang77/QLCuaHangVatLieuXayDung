@@ -23,8 +23,7 @@ namespace DAL
 
         public bool KiemTraDangNhap(string soDienThoai, string matKhau, out string chucVu)
         {
-            //var nhanVien = vlxd.NhanViens.FirstOrDefault(nv => nv.SoDienThoai == soDienThoai && nv.MatKhau == matKhau);
-            //return nhanVien != null;
+           
             var nhanVien = vlxd.NhanViens.FirstOrDefault(nv => nv.SoDienThoai == soDienThoai && nv.MatKhau == matKhau);
 
             if (nhanVien != null)
@@ -35,6 +34,12 @@ namespace DAL
 
             chucVu = null;
             return false;
+        }
+
+        public string GetMaNhanVienBySoDienThoai(string soDienThoai)
+        {
+            var nhanVien = vlxd.NhanViens.FirstOrDefault(nv => nv.SoDienThoai == soDienThoai);
+            return nhanVien.MaNhanVien;
         }
 
 

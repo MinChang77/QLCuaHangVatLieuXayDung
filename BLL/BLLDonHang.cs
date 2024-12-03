@@ -20,9 +20,9 @@ namespace BLL
         {
             return daldonhang.LoadDonHang();
         }
-        public List<DonHang> TimKiemDonHang(string maKhachHang, string maNhanVien)
+        public List<DonHang> TimKiemDonHang(string trangThai)
         {
-            return daldonhang.TimKiemDonHangTheoKhachHangHoacNhanVien(maKhachHang, maNhanVien);
+            return daldonhang.TimKiemDonHang(trangThai);
         }
 
         public List<DonHang> LayDonHangTheoKhoangThoiGian(DateTime tuNgay, DateTime denNgay)
@@ -34,5 +34,11 @@ namespace BLL
         {
             return donHangs.Sum(dh => dh.TongTien ?? 0);
         }
+
+        public bool CapNhatTrangThai(string maDonHang, string trangThai)
+        {
+            return daldonhang.CapNhatTrangThai(maDonHang, trangThai);
+        }
+
     }
 }

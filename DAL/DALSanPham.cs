@@ -71,5 +71,6 @@ namespace DAL
             return vlxd.SanPhams.Where(sp => sp.MaNhaCungCap == maNhaCungCap).ToList();
         }
 
+      
     }
 }

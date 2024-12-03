@@ -11,6 +11,7 @@ using DTO;
 using BLL;
 
 
+
 namespace GiaoDien.MenuTab
 {
     public partial class frmPhieuNhap : Form
@@ -198,10 +199,15 @@ namespace GiaoDien.MenuTab
         }
         private void LoadComboboxNhanVien()
         {
+           
+
             cboNhanVien.DataSource = bllnhanvien.GetNhanViens();
             cboNhanVien.DisplayMember = "TenNhanVien";
             cboNhanVien.ValueMember = "MaNhanVien";
+
+            
         }
+
 
         private void ClearFields()
         {

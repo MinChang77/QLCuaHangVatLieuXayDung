@@ -26,26 +26,11 @@ namespace GiaoDien
 
         private void BtnDangNhap_Click(object sender, EventArgs e)
         {
-            //string soDienThoai = txtTenDangNhap.Text;
-            //string matKhau = txtMatKhau.Text;
-
-            //if (bllnhanvien.DangNhap(soDienThoai, matKhau))
-            //{
-            //    // Đăng nhập thành công, chuyển đến frmTrangChu
-            //    frmTrangChu frm = new frmTrangChu();
-            //    frm.Show();
-            //    this.Hide();
-            //}
-            //else
-            //{
-            //    // Đăng nhập thất bại
-            //    MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!");
-            //}
+            
             string soDienThoai = txtTenDangNhap.Text;
             string matKhau = txtMatKhau.Text;
             string chucVu;
 
-            
             if (bllnhanvien.DangNhap(soDienThoai, matKhau, out chucVu))
             {
                 

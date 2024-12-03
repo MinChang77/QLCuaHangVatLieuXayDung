@@ -21,12 +21,12 @@ namespace DAL
         }
 
 
-        public List<DonHang> TimKiemDonHangTheoKhachHangHoacNhanVien(string maKhachHang, string maNhanVien)
+        public List<DonHang> TimKiemDonHang(string trangThai)
         {
             return vlxd.DonHangs
-                .Where(dh => (maKhachHang == null || dh.MaKhachHang == maKhachHang) &&
-                             (maNhanVien == null || dh.MaNhanVien == maNhanVien))
-                .ToList();
+            .Where(dh => (
+                         trangThai == null || dh.TrangThai == trangThai))
+            .ToList();
         }
 
         public List<DonHang> LayDonHangTheoKhoangThoiGian(DateTime tuNgay, DateTime denNgay)
@@ -35,5 +35,24 @@ namespace DAL
                        .Where(dh => dh.NgayLap >= tuNgay && dh.NgayLap <= denNgay)
                        .ToList();
         }
+
+        public bool CapNhatTrangThai(string maDonHang, string trangThai)
+        {
+            try
+            {
+                var donHang = vlxd.DonHangs.SingleOrDefault(dh => dh.MaDonHang == maDonHang);
+
+                donHang.TrangThai = trangThai;
+
+                vlxd.SubmitChanges();
+
+                return true; 
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
     }
 }

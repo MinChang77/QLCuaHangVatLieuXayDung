@@ -36,10 +36,10 @@ namespace DAL
             return false;
         }
 
-        public string GetMaNhanVienBySoDienThoai(string soDienThoai)
+        public string GetMaNhanVien(string soDienThoai)
         {
             var nhanVien = vlxd.NhanViens.FirstOrDefault(nv => nv.SoDienThoai == soDienThoai);
-            return nhanVien.MaNhanVien;
+            return nhanVien != null ? nhanVien.MaNhanVien : string.Empty;
         }
 
 
@@ -90,5 +90,12 @@ namespace DAL
         {
             return vlxd.NhanViens.Where(n => n.TenNhanVien.Contains(tenNhanVien)).ToList();
         }
+
+        public string GetHoTenNhanVien(string maNhanVien)
+        {
+            var nhanVien = vlxd.NhanViens.FirstOrDefault(nv => nv.MaNhanVien == maNhanVien);
+            return nhanVien != null ? nhanVien.TenNhanVien : string.Empty;
+        }
+
     }
 }

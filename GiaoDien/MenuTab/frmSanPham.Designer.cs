@@ -97,6 +97,7 @@
             // 
             // btnTimKiem
             // 
+            this.btnTimKiem.AutoSize = true;
             this.btnTimKiem.Location = new System.Drawing.Point(880, 74);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(210, 60);
@@ -204,7 +205,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(314, 14);
+            this.label1.Location = new System.Drawing.Point(474, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(252, 29);
             this.label1.TabIndex = 6;
@@ -270,6 +271,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblMaNhanVien);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmSanPham";
             this.Text = "SẢN PHẨM";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).EndInit();

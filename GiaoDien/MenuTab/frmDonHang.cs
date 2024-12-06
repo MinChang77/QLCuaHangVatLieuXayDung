@@ -62,6 +62,23 @@ namespace GiaoDien.MenuTab
 
             if (ketQua)
             {
+                if (trangThai == "Đang vận chuyển" || trangThai == "Giao hàng thành công")
+                {
+                    var chiTietDonHangs = bllchitietdonhang.GetChiTietDonHangs(maDonHang);
+                    
+                    foreach (var chiTiet in chiTietDonHangs)
+                    {
+                        string message;
+                        bool KiemTra = bllchitietdonhang.CapNhatSoLuongSanPham(chiTiet.MaSanPham, chiTiet.SoLuong ?? 0, out message);
+
+                        if (!KiemTra) 
+                        {
+                            MessageBox.Show($"Mã sản phẩm: {chiTiet.MaSanPham} - {message}", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return; 
+                        }
+                    }
+                }
+
                 MessageBox.Show("Cập nhật trạng thái đơn hàng thành công!");
                 LoadDonHang();
                 ClearFields();
@@ -69,14 +86,13 @@ namespace GiaoDien.MenuTab
             else
             {
                 MessageBox.Show("Cập nhật trạng thái thất bại! Đơn hàng không tồn tại.");
-                
             }
         }
 
         private void FrmDonHang_Load(object sender, EventArgs e)
         {
             LoadDonHang();
-            LoadComboboxKhachHang();
+            //LoadComboboxKhachHang();
             LoadComboboxNhanVien();
             LoadComboboxTrangThai();
         }
@@ -103,9 +119,9 @@ namespace GiaoDien.MenuTab
             {
                 "Đang vận chuyển",
                 "Giao hàng thành công",
-                "Hủy đơn"
+                "Hủy đơn",
+                "Chưa xác nhận"
             };
-
             cboTrangThai.DataSource = trangThaiList;
 
             cboTrangThai.SelectedIndex = -1;
@@ -138,6 +154,8 @@ namespace GiaoDien.MenuTab
                 cboKhachHang.SelectedValue = dgvDonHang.CurrentRow.Cells["MaKhachHang"].Value.ToString();
                 cboNhanVien.SelectedValue = dgvDonHang.CurrentRow.Cells["MaNhanVien"].Value.ToString();
                 cboTrangThai.SelectedItem = dgvDonHang.CurrentRow.Cells["TrangThai"].Value.ToString();
+
+                LoadComboboxKhachHang();
             }
         }
 

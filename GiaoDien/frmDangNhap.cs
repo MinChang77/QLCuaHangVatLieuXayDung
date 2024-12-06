@@ -24,6 +24,8 @@ namespace GiaoDien
            
         }
 
+        public static string LoggedInMaNhanVien { get;  set; }
+
         private void BtnDangNhap_Click(object sender, EventArgs e)
         {
             
@@ -33,14 +35,13 @@ namespace GiaoDien
 
             if (bllnhanvien.DangNhap(soDienThoai, matKhau, out chucVu))
             {
-                
+                LoggedInMaNhanVien = bllnhanvien.LayMaNhanVien(soDienThoai);
                 frmTrangChu frm = new frmTrangChu(chucVu); 
                 frm.Show(); 
                 this.Hide();
             }
             else
             {
-                // Đăng nhập thất bại
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!");
             }
         }

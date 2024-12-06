@@ -21,5 +21,10 @@ namespace BLL
             return dalchitietdonhang.LoadChiTietDonHang(maDonHang);
         }
 
+        public bool CapNhatSoLuongSanPham(string maSanPham, int soLuong, out string message)
+        {
+            return dalchitietdonhang.CapNhatSoLuongSanPham(maSanPham, soLuong, out message);
+        }
+
     }
 }

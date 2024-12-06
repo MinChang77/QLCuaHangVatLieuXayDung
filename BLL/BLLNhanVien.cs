@@ -25,15 +25,17 @@ namespace BLL
             return dalnhanvien.KiemTraDangNhap(soDienThoai, matKhau, out chucVu);
         }
 
-        public string GetMaNhanVienBySoDienThoai(string soDienThoai)
-        {
-            return dalnhanvien.GetMaNhanVienBySoDienThoai(soDienThoai);
-        }
+        
 
         public bool KTKC(string maNhanVien)
         {
             List<NhanVien> nhanViens = GetNhanViens();
             return nhanViens.Any(nv => nv.MaNhanVien == maNhanVien);
+        }
+
+        public string LayMaNhanVien(string soDienThoai)
+        {
+            return dalnhanvien.GetMaNhanVien(soDienThoai);
         }
 
         public bool Them(NhanVien nv)
@@ -55,5 +57,11 @@ namespace BLL
         {
             return dalnhanvien.TimKiemNhanVien(tenNhanVien);
         }
+
+        public string LayHoTenNhanVien(string maNhanVien)
+        {
+            return dalnhanvien.GetHoTenNhanVien(maNhanVien);
+        }
+
     }
 }

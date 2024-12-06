@@ -32,8 +32,10 @@ namespace DAL
         public List<DonHang> LayDonHangTheoKhoangThoiGian(DateTime tuNgay, DateTime denNgay)
         {
             return vlxd.DonHangs
-                       .Where(dh => dh.NgayLap >= tuNgay && dh.NgayLap <= denNgay)
-                       .ToList();
+               .Where(dh => dh.NgayLap >= tuNgay &&
+                            dh.NgayLap <= denNgay &&
+                            dh.TrangThai == "Giao hàng thành công")
+               .ToList();
         }
 
         public bool CapNhatTrangThai(string maDonHang, string trangThai)

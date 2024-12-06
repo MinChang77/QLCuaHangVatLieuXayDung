@@ -35,6 +35,7 @@ namespace GiaoDien.MenuTab
         {
             try
             {
+
                 if (string.IsNullOrEmpty(txtMaPhieuNhap.Text) ||
                     string.IsNullOrEmpty(txtNgayNhap.Text) ||
                     string.IsNullOrEmpty(txtTongTien.Text) ||
@@ -48,8 +49,8 @@ namespace GiaoDien.MenuTab
                 var phieuNhap = new PhieuNhap
                 {
                     MaPhieuNhap = txtMaPhieuNhap.Text,
-                    MaNhanVien = cboNhanVien.SelectedValue.ToString(),
-                    MaNhaCungCap = cboNhaCungCap.SelectedValue.ToString(),
+                    MaNhanVien = frmDangNhap.LoggedInMaNhanVien,
+                    MaNhaCungCap = cboNhaCungCap.SelectedValue?.ToString(),
                     NgayNhap = DateTime.ParseExact(txtNgayNhap.Text, "dd/MM/yyyy", null),
                     TongTien = int.Parse(txtTongTien.Text)
                 };
@@ -181,6 +182,16 @@ namespace GiaoDien.MenuTab
             LoadComboboxNhanVien();
             XulyControl();
             AddColumnChiTietPhieuNhap();
+            if (!string.IsNullOrEmpty(frmDangNhap.LoggedInMaNhanVien))
+            {
+                string tenNhanvien = bllnhanvien.LayHoTenNhanVien(frmDangNhap.LoggedInMaNhanVien);
+
+                cboNhanVien.DataSource = null;
+                cboNhanVien.Items.Clear();
+                cboNhanVien.Items.Add(tenNhanvien);
+                cboNhanVien.SelectedIndex = 0;
+            }
+
         }
         private void LoadSanPham()
         {
@@ -199,13 +210,9 @@ namespace GiaoDien.MenuTab
         }
         private void LoadComboboxNhanVien()
         {
-           
-
             cboNhanVien.DataSource = bllnhanvien.GetNhanViens();
             cboNhanVien.DisplayMember = "TenNhanVien";
             cboNhanVien.ValueMember = "MaNhanVien";
-
-            
         }
 
 
@@ -216,7 +223,7 @@ namespace GiaoDien.MenuTab
             txtTongTien.Clear();
             txtNgayNhap.Text = DateTime.Now.ToString("dd/MM/yyyy");
             nudSoLuong.Value = 0;
-            cboNhanVien.SelectedIndex = -1;
+            
             cboNhaCungCap.SelectedIndex = -1;
             dgvChiTietPhieuNhap.Rows.Clear();
             btnThem.Enabled = false;
@@ -227,9 +234,8 @@ namespace GiaoDien.MenuTab
             txtNgayNhap.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtMaPhieuNhap.Text = GenerateNewMaPhieuNhap();
             btnThem.Enabled = false;
-            cboNhanVien.SelectedIndex = -1;
-            cboNhaCungCap.SelectedIndex = -1;
             
+            cboNhaCungCap.SelectedIndex = -1;
         }
 
         private void UpdateTongTien()
@@ -295,6 +301,8 @@ namespace GiaoDien.MenuTab
                 txtNgayNhap.Text = dgvPhieuNhap.CurrentRow.Cells["NgayNhap"].Value.ToString();
                 cboNhaCungCap.SelectedValue = dgvPhieuNhap.CurrentRow.Cells["MaNhaCungCap"].Value.ToString();
                 cboNhanVien.SelectedValue = dgvPhieuNhap.CurrentRow.Cells["MaNhanVien"].Value.ToString();
+
+                
 
             }
         }

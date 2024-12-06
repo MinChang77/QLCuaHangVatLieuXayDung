@@ -70,9 +70,15 @@ namespace GiaoDien
 
             }
             TrangCon = trangcon;
+
+           
+
+           
             trangcon.TopLevel = false;
             trangcon.FormBorderStyle = FormBorderStyle.None;
             trangcon.Dock = DockStyle.Fill;
+            trangcon.Size = pnlGiaoDienChucNang.Size;
+            pnlGiaoDienChucNang.Controls.Clear(); 
             pnlGiaoDienChucNang.Controls.Add(trangcon);
             pnlGiaoDienChucNang.Tag = trangcon;
             trangcon.BringToFront();
@@ -120,7 +126,11 @@ namespace GiaoDien
 
         private void frmTrangChu_Resize(object sender, EventArgs e)
         {
-            
+            if (TrangCon != null)
+            {
+                TrangCon.Size = pnlGiaoDienChucNang.Size;
+                TrangCon.Refresh();
+            }
         }
 
         private void btnThongKe_Click(object sender, EventArgs e)

@@ -227,6 +227,9 @@ namespace GiaoDien.MenuTab
             cboNhaCungCap.SelectedIndex = -1;
             dgvChiTietPhieuNhap.Rows.Clear();
             btnThem.Enabled = false;
+            btnCapNhat.Enabled = true;
+            btnXoa.Enabled = true;
+            btnLuuPhieuNhap.Enabled = true;
         }
 
         private void XulyControl()
@@ -301,6 +304,9 @@ namespace GiaoDien.MenuTab
                 txtNgayNhap.Text = dgvPhieuNhap.CurrentRow.Cells["NgayNhap"].Value.ToString();
                 cboNhaCungCap.SelectedValue = dgvPhieuNhap.CurrentRow.Cells["MaNhaCungCap"].Value.ToString();
                 cboNhanVien.SelectedValue = dgvPhieuNhap.CurrentRow.Cells["MaNhanVien"].Value.ToString();
+                btnCapNhat.Enabled = false;
+                btnXoa.Enabled = false;
+                btnLuuPhieuNhap.Enabled = false;
 
                 
 

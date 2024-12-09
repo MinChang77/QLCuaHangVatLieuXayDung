@@ -92,7 +92,6 @@ namespace GiaoDien.MenuTab
         private void FrmDonHang_Load(object sender, EventArgs e)
         {
             LoadDonHang();
-            //LoadComboboxKhachHang();
             LoadComboboxNhanVien();
             LoadComboboxTrangThai();
         }
@@ -136,6 +135,8 @@ namespace GiaoDien.MenuTab
             cboKhachHang.SelectedIndex = -1;
             cboNhanVien.SelectedIndex = -1;
             cboTrangThai.SelectedIndex = -1;
+            cboKhachHang.Enabled = true;
+            cboNhanVien.Enabled = true;
         }
 
         private void dgvDonHang_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -154,7 +155,8 @@ namespace GiaoDien.MenuTab
                 cboKhachHang.SelectedValue = dgvDonHang.CurrentRow.Cells["MaKhachHang"].Value.ToString();
                 cboNhanVien.SelectedValue = dgvDonHang.CurrentRow.Cells["MaNhanVien"].Value.ToString();
                 cboTrangThai.SelectedItem = dgvDonHang.CurrentRow.Cells["TrangThai"].Value.ToString();
-
+                cboKhachHang.Enabled = false;
+                cboNhanVien.Enabled = false;
                 LoadComboboxKhachHang();
             }
         }

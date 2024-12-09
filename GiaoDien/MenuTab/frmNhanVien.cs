@@ -144,6 +144,10 @@ namespace GiaoDien.MenuTab
         public void LoadNhanVien()
         {
             dgvNhanVien.DataSource = bllnhanvien.GetNhanViens();
+            if (dgvNhanVien.Columns["MatKhau"] != null)
+            {
+                dgvNhanVien.Columns["MatKhau"].Visible = false;
+            }
         }
         private bool KiemTraSoDienThoai(string soDienThoai)
         {

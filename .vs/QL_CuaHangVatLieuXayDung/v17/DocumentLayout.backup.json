@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F3F570-49D2-43AC-892E-3F271EFCC8AE}|BLL\\BLL.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\bll\\bllnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F3F570-49D2-43AC-892E-3F271EFCC8AE}|BLL\\BLL.csproj|solutionrelative:bll\\bllnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|d:\\user\\protect visual\\ql_cuahangvatlieuxaydung\\giaodien\\menutab\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,15 +47,11 @@
       "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|d:\\user\\protect visual\\ql_cuahangvatlieuxaydung\\giaodien\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7F3F570-49D2-43AC-892E-3F271EFCC8AE}|BLL\\BLL.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\bll\\bllnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F3F570-49D2-43AC-892E-3F271EFCC8AE}|BLL\\BLL.csproj|solutionrelative:bll\\bllnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{089A8044-0B3B-455E-AAF3-E8477A697755}|DAL\\DAL.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\dal\\dalnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{089A8044-0B3B-455E-AAF3-E8477A697755}|DAL\\DAL.csproj|solutionrelative:dal\\dalnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7F3F570-49D2-43AC-892E-3F271EFCC8AE}|BLL\\BLL.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\bll\\bllchitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,14 +123,6 @@
       "RelativeMoniker": "D:0:0:{C05D434B-B7B7-48EE-813C-CA75E114FF94}|DTO\\DTO.csproj|solutionrelative:dto\\ql_vlxd.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC711D13-1F6F-4C27-82D5-0A5EE94A4B83}|GiaoDien\\GiaoDien.csproj|solutionrelative:giaodien\\menutab\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7F3F570-49D2-43AC-892E-3F271EFCC8AE}|BLL\\BLL.csproj|D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\bll\\bllsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7F3F570-49D2-43AC-892E-3F271EFCC8AE}|BLL\\BLL.csproj|solutionrelative:bll\\bllsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -138,35 +138,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmThongKe.cs [Design]",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmThongKe.cs",
-              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmThongKe.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmThongKe.cs [Design]",
-              "RelativeToolTip": "GiaoDien\\MenuTab\\frmThongKe.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "BLLNhanVien.cs",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLNhanVien.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLNhanVien.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLNhanVien.cs",
+              "RelativeToolTip": "BLL\\BLLNhanVien.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:58:36.876Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T13:35:18.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmNhanVien.cs",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmNhanVien.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs",
+              "RelativeToolTip": "GiaoDien\\MenuTab\\frmNhanVien.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAkwJUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:18:01.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmSanPham.cs [Design]",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmSanPham.cs",
-              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmSanPham.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmSanPham.cs [Design]",
-              "RelativeToolTip": "GiaoDien\\MenuTab\\frmSanPham.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:09:04.996Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "frmThongKe.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmThongKe.cs",
               "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmThongKe.cs",
@@ -179,32 +181,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmPhieuNhap.cs [Design]",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmPhieuNhap.cs",
-              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmPhieuNhap.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmPhieuNhap.cs [Design]",
-              "RelativeToolTip": "GiaoDien\\MenuTab\\frmPhieuNhap.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "frmNhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmNhanVien.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs [Design]",
+              "RelativeToolTip": "GiaoDien\\MenuTab\\frmNhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T05:22:48.719Z",
+              "WhenOpened": "2024-12-03T13:33:46.352Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DALDonHang.cs",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALDonHang.cs",
-              "RelativeDocumentMoniker": "DAL\\DALDonHang.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALDonHang.cs",
-              "RelativeToolTip": "DAL\\DALDonHang.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmKhachHang.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs [Design]*",
+              "RelativeToolTip": "GiaoDien\\MenuTab\\frmKhachHang.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T12:14:41.848Z",
+              "WhenOpened": "2024-11-28T12:08:21.862Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmKhachHang.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs*",
+              "RelativeToolTip": "GiaoDien\\MenuTab\\frmKhachHang.cs*",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAswJoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:20:24.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "BLLDonHang.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLDonHang.cs",
               "RelativeDocumentMoniker": "BLL\\BLLDonHang.cs",
@@ -212,24 +226,57 @@
               "RelativeToolTip": "BLL\\BLLDonHang.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA9wCcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T12:14:35.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T12:14:35.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DALDonHang.cs",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALDonHang.cs",
+              "RelativeDocumentMoniker": "DAL\\DALDonHang.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALDonHang.cs",
+              "RelativeToolTip": "DAL\\DALDonHang.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:14:41.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmPhieuNhap.cs [Design]",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmPhieuNhap.cs",
+              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmPhieuNhap.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmPhieuNhap.cs [Design]",
+              "RelativeToolTip": "GiaoDien\\MenuTab\\frmPhieuNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T05:22:48.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmSanPham.cs [Design]",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmSanPham.cs",
+              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmSanPham.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmSanPham.cs [Design]",
+              "RelativeToolTip": "GiaoDien\\MenuTab\\frmSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:09:04.996Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "frmKhachHang.cs [Design]",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs",
-              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmKhachHang.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs [Design]",
-              "RelativeToolTip": "GiaoDien\\MenuTab\\frmKhachHang.cs [Design]",
+              "Title": "frmThongKe.cs [Design]",
+              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmThongKe.cs",
+              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmThongKe.cs",
+              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmThongKe.cs [Design]",
+              "RelativeToolTip": "GiaoDien\\MenuTab\\frmThongKe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:08:21.862Z",
+              "WhenOpened": "2024-11-28T12:58:36.876Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "frmPhieuNhap.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmPhieuNhap.cs",
               "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmPhieuNhap.cs",
@@ -237,12 +284,11 @@
               "RelativeToolTip": "GiaoDien\\MenuTab\\frmPhieuNhap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T06:23:08.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T06:23:08.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "frmTrangChu.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\frmTrangChu.cs",
               "RelativeDocumentMoniker": "GiaoDien\\frmTrangChu.cs",
@@ -250,12 +296,11 @@
               "RelativeToolTip": "GiaoDien\\frmTrangChu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T12:57:57.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T12:57:57.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "frmSanPham.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmSanPham.cs",
               "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmSanPham.cs",
@@ -263,12 +308,11 @@
               "RelativeToolTip": "GiaoDien\\MenuTab\\frmSanPham.cs",
               "ViewState": "AgIAAK8AAAAAAAAAAAAswMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:09:20.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T04:09:20.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "frmDonHang.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmDonHang.cs",
               "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmDonHang.cs",
@@ -280,19 +324,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "frmTrangChu.cs [Design]",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\frmTrangChu.cs",
               "RelativeDocumentMoniker": "GiaoDien\\frmTrangChu.cs",
               "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\frmTrangChu.cs [Design]",
               "RelativeToolTip": "GiaoDien\\frmTrangChu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T12:05:12.066Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T12:05:12.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "frmDonHang.cs [Design]",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmDonHang.cs",
               "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmDonHang.cs",
@@ -303,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "frmDangNhap.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\frmDangNhap.cs",
               "RelativeDocumentMoniker": "GiaoDien\\frmDangNhap.cs",
@@ -315,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "frmDangNhap.cs [Design]",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\frmDangNhap.cs",
               "RelativeDocumentMoniker": "GiaoDien\\frmDangNhap.cs",
@@ -326,19 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BLLNhanVien.cs",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLNhanVien.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLNhanVien.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLNhanVien.cs",
-              "RelativeToolTip": "BLL\\BLLNhanVien.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowDIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:35:18.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "DALNhanVien.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALNhanVien.cs",
               "RelativeDocumentMoniker": "DAL\\DALNhanVien.cs",
@@ -350,18 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "frmNhanVien.cs [Design]",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs",
-              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmNhanVien.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs [Design]",
-              "RelativeToolTip": "GiaoDien\\MenuTab\\frmNhanVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:33:46.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "BLLChiTietDonHang.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLChiTietDonHang.cs",
               "RelativeDocumentMoniker": "BLL\\BLLChiTietDonHang.cs",
@@ -373,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "DALChiTietDonHang.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALChiTietDonHang.cs",
               "RelativeDocumentMoniker": "DAL\\DALChiTietDonHang.cs",
@@ -385,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "DALChiTietPhieuNhap.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALChiTietPhieuNhap.cs",
               "RelativeDocumentMoniker": "DAL\\DALChiTietPhieuNhap.cs",
@@ -397,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "DALPhieuNhap.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALPhieuNhap.cs",
               "RelativeDocumentMoniker": "DAL\\DALPhieuNhap.cs",
@@ -409,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "DALSanPham.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DAL\\DALSanPham.cs",
               "RelativeDocumentMoniker": "DAL\\DALSanPham.cs",
@@ -421,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "BLLChiTietPhieuNhap.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLChiTietPhieuNhap.cs",
               "RelativeDocumentMoniker": "BLL\\BLLChiTietPhieuNhap.cs",
@@ -433,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "frmLoaiSanPham_NhaCungCap.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmLoaiSanPham_NhaCungCap.cs",
               "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmLoaiSanPham_NhaCungCap.cs",
@@ -445,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "BLLPhieuNhap.cs",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\BLL\\BLLPhieuNhap.cs",
               "RelativeDocumentMoniker": "BLL\\BLLPhieuNhap.cs",
@@ -457,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "frmLoaiSanPham_NhaCungCap.cs [Design]",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmLoaiSanPham_NhaCungCap.cs",
               "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmLoaiSanPham_NhaCungCap.cs",
@@ -468,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "QL_VLXD.dbml",
               "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\DTO\\QL_VLXD.dbml",
               "RelativeDocumentMoniker": "DTO\\QL_VLXD.dbml",
@@ -476,31 +496,6 @@
               "RelativeToolTip": "DTO\\QL_VLXD.dbml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
               "WhenOpened": "2024-12-01T04:07:28.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "frmNhanVien.cs",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs",
-              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmNhanVien.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmNhanVien.cs",
-              "RelativeToolTip": "GiaoDien\\MenuTab\\frmNhanVien.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowGoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:18:01.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "frmKhachHang.cs",
-              "DocumentMoniker": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs",
-              "RelativeDocumentMoniker": "GiaoDien\\MenuTab\\frmKhachHang.cs",
-              "ToolTip": "D:\\User\\Protect Visual\\QL_CuaHangVatLieuXayDung\\GiaoDien\\MenuTab\\frmKhachHang.cs",
-              "RelativeToolTip": "GiaoDien\\MenuTab\\frmKhachHang.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwFQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:20:24.149Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

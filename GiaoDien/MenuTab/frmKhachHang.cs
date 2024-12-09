@@ -150,6 +150,10 @@ namespace GiaoDien.MenuTab
         public void LoadKhachHang()
         {
             dgvKhachHang.DataSource = bllkhachhang.GetKhachHangs();
+            if (dgvKhachHang.Columns["MatKhau"] != null)
+            {
+                dgvKhachHang.Columns["MatKhau"].Visible = false;
+            }
         }
         private bool KiemTraSoDienThoai(string soDienThoai)
         {

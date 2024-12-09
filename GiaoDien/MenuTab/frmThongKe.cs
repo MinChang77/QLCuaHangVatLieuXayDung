@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 using DTO;
 using BLL;
 
@@ -36,6 +37,35 @@ namespace GiaoDien.MenuTab
             dgvThongKeDonHang.DataSource = donHangs;
             txtTongTien.Text = blldonhang.TinhTongTien(donHangs).ToString("N0") + " VNĐ";
 
+            CapNhatBieuDo(donHangs);
+        }
+        private void CapNhatBieuDo(List<DonHang> donHangs)
+        {
+            chartDoanhThu.Series.Clear();
+            chartDoanhThu.ChartAreas.Clear();
+
+            ChartArea chartArea = new ChartArea("DoanhThuArea");
+            chartDoanhThu.ChartAreas.Add(chartArea);
+
+            Series series = new Series("DoanhThu")
+            {
+                ChartType = SeriesChartType.Column,  
+                XValueType = ChartValueType.Date,   
+                YValueType = ChartValueType.Double  
+            };
+
+            foreach (var donHang in donHangs)
+            {
+                DateTime ngay = donHang.NgayLap ?? DateTime.Now; 
+                double tongTien = donHang.TongTien ?? 0;     
+                series.Points.AddXY(ngay.ToString("dd/MM/yyyy"), tongTien);
+            }
+
+            chartDoanhThu.Series.Add(series);
+
+            chartDoanhThu.ChartAreas["DoanhThuArea"].AxisX.Title = "Ngày";
+            chartDoanhThu.ChartAreas["DoanhThuArea"].AxisY.Title = "Doanh thu (VNĐ)";
+            chartDoanhThu.ChartAreas["DoanhThuArea"].AxisX.Interval = 1;
         }
     }
 }
